@@ -1,0 +1,26 @@
+name: my_app
+description: A new Flutter project
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  fl_chart: ^0.35.0
+  csv: ^5.0.0   # نسخه مناسب برای flutlab
+  file_picker: 4.2.5 
+  path_provider: ^2.0.14
+  permission_handler: ^11.0.1
+  universal_html: ^2.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
